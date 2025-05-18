@@ -6,6 +6,6 @@ public class Programa8 {
                 contador++;
             }
         }
-        System.out.println("Hay " + contador + " multiplos de 3 entre 1 y 100");
+        System.out.println("Hay " + contador + " multiplos de 3");
     }
 }
