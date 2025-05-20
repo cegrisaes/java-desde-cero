@@ -1,7 +1,10 @@
 public class Programa6 {
     public static void main(String[] args) {
-        for (int i = 1; i <= 5; i++) {
-            System.out.println(i * i);
-        }
+     for(int i = 10;i <= 100; i++){
+         if(i % 7 == 0){
+             System.out.println("El primer multiplo de 7 es " + i);
+             break;
+         }
+     }
     }
 }
